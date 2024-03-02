@@ -1,5 +1,11 @@
 # @zemd/open-props
 
+## 0.0.2
+
+### Patch Changes
+
+- 6167b8d: adding drop-shadow props
+
 ## 0.0.1
 
 ### Patch Changes

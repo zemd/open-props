@@ -1,0 +1,38 @@
+{
+  "name": "@zemd/open-props",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "description": "A set of css variables with useful defaults",
+  "keywords": [
+    "css",
+    "utilities",
+    "variables",
+    "custom properties"
+  ],
+  "author": {
+    "name": "Dmytro Zelenetskyi",
+    "email": "dmytro.zelenetskyi@gmail.com",
+    "url": "https://codeandgin.co"
+  },
+  "homepage": "https://github.com/zemd/open-props#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zemd/open-props.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zemd/open-props/issues"
+  },
+  "style": "./index.css",
+  "exports": {
+    "./*": "./*"
+  },
+  "files": [
+    "index.css"
+  ],
+  "scripts": {
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
+}

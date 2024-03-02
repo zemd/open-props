@@ -47,14 +47,17 @@
   --shadow-6: rgba(0, 0, 0, 0.2) 0px 7px 8px -4px, rgba(0, 0, 0, 0.14) 0px 12px 17px 2px,
     rgba(0, 0, 0, 0.12) 0px 5px 22px 4px;
 
-  --shadow-default: var(--shadow-1, "");
+  --shadow-default: var(--shadow-1);
 
-  /* --drop-shadow-default: "";
-    --drop-shadow-1: "";
-    --drop-shadow-2: "";
-    --drop-shadow-3: "";
-    --drop-shadow-4: "";
-    --drop-shadow-5: ""; */
+  
+  --drop-shadow-1: 0 1px 2px rgb(0 0 0 / 0.1), 0 1px 1px rgb(0 0 0 / 0.06);
+  --drop-shadow-2: 0 1px 1px rgb(0 0 0 / 0.05);
+  --drop-shadow-3: 0 4px 3px rgb(0 0 0 / 0.07), 0 2px 2px rgb(0 0 0 / 0.06);
+  --drop-shadow-4: 0 10px 8px rgb(0 0 0 / 0.04), 0 4px 3px rgb(0 0 0 / 0.1);
+  --drop-shadow-5: 0 20px 13px rgb(0 0 0 / 0.03), 0 8px 5px rgb(0 0 0 / 0.08);
+  --drop-shadow-6: 0 25px 25px rgb(0 0 0 / 0.15);
+
+  --drop-shadow-default: var(--drop-shadow-1);
 
   /*
       A variety of concepts can serve as the foundation for a type scale.

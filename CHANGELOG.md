@@ -1,5 +1,11 @@
 # @zemd/open-props
 
+## 0.0.3
+
+### Patch Changes
+
+- 7640d87: fixing shadows
+
 ## 0.0.2
 
 ### Patch Changes

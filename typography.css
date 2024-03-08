@@ -1,0 +1,63 @@
+:where(p),
+:where(li) {
+  font-size: var(--font-size-fluid-1);
+  line-height: var(--line-height-2);
+  margin-bottom: 1.5rem;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+:where(h1) {
+  font-family: var(--font-display, var(--font-sans));
+  font-size: var(--font-size-short-12);
+  line-height: var(--line-height-short-12);
+  letter-spacing: var(--letter-spacing-2);
+  max-inline-size: var(--max-inline-size-1);
+}
+
+:where(h2) {
+  font-size: var(--font-size-short-10);
+  line-height: var(--line-height-short-10);
+  letter-spacing: var(--letter-spacing-2);
+  max-inline-size: var(--max-inline-size-2);
+}
+
+:where(h3) {
+  font-size: var(--font-size-short-8);
+  line-height: var(--line-height-short-8);
+  letter-spacing: var(--letter-spacing-2);
+  max-inline-size: var(--max-inline-size-2);
+}
+
+:where(h4) {
+  font-size: var(--font-size-short-6);
+  line-height: var(--line-height-short-4xl);
+  letter-spacing: var(--letter-spacing-2);
+  max-inline-size: var(--max-inline-size-2);
+}
+
+:where(h5) {
+  font-size: var(--font-size-short-4);
+  line-height: var(--line-height-short-4);
+  letter-spacing: var(--letter-spacing-2);
+  max-inline-size: var(--max-inline-size-2);
+}
+
+:where(h6) {
+  font-size: var(--font-size-short-2);
+  line-height: var(--line-height-short-2);
+  letter-spacing: var(--letter-spacing-2);
+  max-inline-size: var(--max-inline-size-2);
+}
+
+:where(code, kbd, samp, pre) {
+  font-family: var(--font-mono);
+}
+
+:where(a) {
+  color: inherit;
+  text-decoration: inherit;
+}
